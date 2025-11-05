@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body {
+    padding: o;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+.nav {
+    background-color: red;
+    border-radius: 0.8rem 0 0 0.8rem;
+    height: 2.5rem;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 1rem;  
+}
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    list-style: none;
+    line-height: 2.5rem;
+    text-align: center;
+}
+.nav ul li {
+    list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white; 
+    text-align: center; 
+}
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    align-content: center;
+    position: absolute;
+    top: 8rem;
+    left: 5%;
+}
+.BOOKS {
+    border-radius: 2rem;
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    position: absolute;
+    top: 15rem;
+    left: 6rem;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.BOOKS div {
+    background-color: white;
+    border-radius: 2rem;
+    height: 15rem;
+    line-height: 15rem;
+    text-align: center;
+    width: 12rem;
+    color: black;
+}
